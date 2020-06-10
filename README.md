@@ -9,10 +9,8 @@
 <code>
 //клонируем репозиторий
 $ git clone https://github.com/zinaida-nikolavna/NewsAnalyzer.git
-
 //устанавливаем npm
 $ npm install
-
 //запустить сборку dev
 $ npm run dev
 </code>
