@@ -7,7 +7,6 @@
 <p>Инструкция по сборке: для запуска нужна последняя версия Git. В комадной строке укажите следующее:</p>
 <pre>
 <code>
-
 //клонируем репозиторий
 $ git clone https://github.com/zinaida-nikolavna/NewsAnalyzer.git
 
@@ -16,7 +15,6 @@ $ npm install
 
 //запустить сборку dev
 $ npm run dev
-
 </code>
 </pre>
 
