@@ -4,6 +4,7 @@
 @import url('./__source/card__source.css');
 @import url('./__title/card__title.css');
 @import url('./__text/card__text.css');
+@import url('./__main-block/card__main-block.css');
 
 .card {
   font-family: "Roboto regular", Arial, Helvetica, sans-serif;

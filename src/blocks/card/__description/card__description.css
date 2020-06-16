@@ -8,16 +8,4 @@
   }
   }
 
-  .card__main-block {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-	-webkit-line-clamp: 4;
-	-webkit-box-orient: vertical;
-  }
 
-@media (min-width: 1440px) {
-.card__main-block {
-  height: 210px;
-}
-}
