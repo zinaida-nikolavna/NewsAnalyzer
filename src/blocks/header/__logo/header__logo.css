@@ -1,0 +1,13 @@
+@import url('./_black-theme/header__logo_black-theme.css');
+
+.header__logo {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+@media (min-width: 600px) {
+  .header__logo {
+    font-size: 20px;
+  }
+}

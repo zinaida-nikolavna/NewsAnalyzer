@@ -1,0 +1,9 @@
+.card-list__content-title {
+  padding-bottom: 16px;
+}
+
+@media (min-width: 600px) {
+  .card-list__content-title {
+    padding-bottom: 0px;
+  }
+}

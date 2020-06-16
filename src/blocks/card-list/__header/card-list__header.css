@@ -1,0 +1,19 @@
+.card-list__header {
+  padding-bottom: 38px;
+  text-align: left;
+}
+
+@media (min-width: 600px) {
+  .card-list__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-list__header {
+    padding-bottom: 64px;
+    align-items: center;
+  }
+}

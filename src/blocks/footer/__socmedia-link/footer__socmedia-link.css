@@ -1,0 +1,15 @@
+.footer__socmedia-link:first-child {
+margin-left: 35px;
+}
+
+@media (min-width: 600px) {
+  .footer__socmedia-links {
+    padding-top: 0;
+    margin-left: 0;
+  }
+  .footer__socmedia-link:first-child{
+    margin-right: 25px;
+  }
+}
+
+

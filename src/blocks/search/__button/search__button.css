@@ -1,0 +1,25 @@
+.search__button {
+  width: 288px;
+  min-height: 56px;
+  border-radius: 100px;
+  border: none;
+  background: #2f71e5;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media (min-width: 600px) {
+  .search__button {
+    width: 160px;
+    position: relative;
+    left: 280px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .search__button {
+    left: 440px;
+  }
+}
+

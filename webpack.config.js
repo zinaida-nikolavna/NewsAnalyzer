@@ -34,8 +34,8 @@ module.exports = {
           loader: 'file-loader',
           options: {
             name: '[name].[ext]',
-            publicPath: 'img',
-            outputPath: 'img',
+            publicPath: '../src/images',
+            outputPath: '../src/images',
             useRelativePath: true,
             esModule: false,
           }
@@ -48,7 +48,7 @@ module.exports = {
     },
     {
       test: /\.(eot|ttf|woff|woff2)$/,
-      loader: 'file-loader?name=./vendor/[name].[ext]'
+      loader: 'file-loader?name=../src/vendor/fonts/[name].[ext]'
     }
     ]
   },

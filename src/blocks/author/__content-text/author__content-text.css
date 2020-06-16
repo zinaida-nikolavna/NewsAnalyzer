@@ -1,0 +1,15 @@
+.author__content-text {
+  margin-bottom: 32px;
+}
+
+@media (min-width: 600px) {
+  .author__content-text {
+    margin-bottom: 48px;
+  }
+  }
+
+  @media (min-width: 900px) {
+    .author__content-text {
+      margin-top: 20px;
+    }
+    }

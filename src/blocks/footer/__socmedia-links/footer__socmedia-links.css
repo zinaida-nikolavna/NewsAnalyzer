@@ -1,0 +1,12 @@
+.footer__socmedia-links {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  order: 3;
+}
+
+@media (min-width: 600px) {
+  .footer__socmedia-links {
+    padding-top: 0;
+  }
+}

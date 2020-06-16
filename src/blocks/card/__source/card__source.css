@@ -1,0 +1,13 @@
+.card__source {
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  color: #b6bcbf;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+@media (min-width: 600px) {
+  .card__source {
+    margin-top: 12px;
+  }
+}

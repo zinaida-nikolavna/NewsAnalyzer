@@ -1,0 +1,18 @@
+.card__image {
+  height: 196px;
+  background-image: url('../../../images/news_1.png');
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+@media (min-width: 600px) {
+  .card__image {
+    height: 150px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card__image {
+    height: 272px;
+  }
+}

@@ -1,0 +1,26 @@
+.card-list__button {
+  width: 288px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  background: #fff;
+  border-radius: 80px;
+  border: none;
+  margin-top: 12px;
+}
+
+@media (min-width: 600px) {
+  .card-list__button {
+    width: 240px;
+    margin-top: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-list__button {
+    width: 288px;
+    height: 64px;
+    margin-top: 64px;
+  }
+}
