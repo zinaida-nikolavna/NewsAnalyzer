@@ -1,0 +1,18 @@
+.page__clients {
+  margin: 20px auto;
+}
+
+@media (min-width: 600px) {
+  .page__clients {
+   margin-top: 30px;
+   margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .page__clients {
+   margin-top: 80px;
+   margin-bottom: 95px;
+  }
+}
+

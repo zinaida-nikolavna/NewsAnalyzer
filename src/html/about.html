@@ -13,6 +13,54 @@
 </head>
 
 <body>
+
+  <header class="header">
+    <div class="header__container">
+      <h3 class="header__logo header__logo_dark-theme">NewsAnalyzer</h3>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li class="header__list"><a class="header__link" href="./index.html">Главная</a></li>
+          <li class="header__list"><a class="header__link header__link-active header__link-active_dark-theme"
+              href="./about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page">
+
+      <section class="clients page__clients">
+        <h2 class="content-title clients__content-title">Клиентам</h2>
+        <p class="content-text clients__content-text">Этот сайт&nbsp;&mdash; дипломный проект студента
+          Яндекс.Практикума. Его
+          цель&nbsp;&mdash; показать, чему научился студент, какими технологиями владеет.</p>
+        <p class="content-text clients__content-text">Вёрстка сайта выполнена по&nbsp;методологии БЭМ. Это делает сайт
+          гибким и&nbsp;масштабируемым. Кроме того, добавлять новые страницы и&nbsp;функциональность проще
+          и&nbsp;быстрее, чем в&nbsp;проектах, выполненных по&nbsp;другим методологиям. Также сайт проще и&nbsp;дешевле
+          поддерживать.</p>
+        <p class="content-text clients__content-text">Карточки с&nbsp;новостями приходят с&nbsp;сервера
+          и&nbsp;обрабатываются асинхронно. То&nbsp;есть сайт продолжает работать, пока от&nbsp;сервера приходит ответ.
+          Это повышает удобство использования сервиса.</p>
+        <p class="content-text clients__content-text">При создании проекта была использована сборка технологией Webpack.
+          Это современный подход к&nbsp;разработке сайтов. Код оптимизируется, а&nbsp;значит, сайт работает быстрее.
+          Также сайт работает в&nbsp;старых браузерах. Даже если посетители&nbsp;&mdash; пользователи старых
+          операционных систем, у&nbsp;них не&nbsp;будет проблем с&nbsp;отображением. А&nbsp;значит, потенциальная
+          аудитория возрастает.</p>
+        <p class="content-text clients__content-text">Проект был проверен экспертами Яндекс.Практикума. Если вашему
+          бизнесу нужен сайт, мы&nbsp;рекомендуем обратиться к&nbsp;этому студенту.</p>
+      </section>
+
+    </div>
+
+    <section class="tecnology">
+      <div class="tecnology__wrapper">
+
+      </div>
+    </section>
+
+  </main>
+
   <script src='<%= htmlWebpackPlugin.files.chunks.about.entry %>'></script>
 </body>
 

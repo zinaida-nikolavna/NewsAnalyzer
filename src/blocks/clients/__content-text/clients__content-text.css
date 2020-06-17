@@ -1,0 +1,13 @@
+.clients__content-text {
+  margin-bottom: 20px;
+}
+
+.clients__content-text:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 900px) {
+  .clients__content-text {
+   width: 815px;
+  }
+}

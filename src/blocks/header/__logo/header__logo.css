@@ -1,4 +1,5 @@
-@import url('./_black-theme/header__logo_black-theme.css');
+@import url('./_light-theme/header__logo_light-theme.css');
+@import url('./_dark-theme/header__logo_dark-theme.css');
 
 .header__logo {
   font-family: "Roboto Slab";
