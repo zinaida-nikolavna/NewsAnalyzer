@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  .github__link_hide{
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+@import url('./__container/github__container.css');
+@import url('./__content-title/github__content-title.css');
+@import url('./__link/github__link.css');
+@import url('./__button/github__button.css');
+@import url('./__link/_hide/github__link_hide.css');
+@import url('./__link/_show/github__link_show.css');
+
+
+.github {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+  background-color: #F5F6F7;;
+  width: 100%;
+  text-align: center;
+}

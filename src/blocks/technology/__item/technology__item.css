@@ -1,0 +1,14 @@
+@import url('./_html/technology__item_html.css');
+@import url('./_css/technology__item_css.css');
+@import url('./_js/technology__item_js.css');
+@import url('./_webpack/technology__item_webpack.css');
+
+.technology__item {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  letter-spacing: 0.2px;
+  text-align: center;
+  width: 120px;
+  margin-top: 40px;
+}

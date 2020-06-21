@@ -1,0 +1,10 @@
+.technology__item_css::after {
+  content: "";
+  background: url('../../../../images/css3.png');
+  width: 88px;
+  height: 97px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 23px;
+  text-align: center;
+}

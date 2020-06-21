@@ -1,0 +1,19 @@
+.github__link {
+  font-family: "Roboto medium";
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1A1B22;
+}
+
+@media (min-width: 768px) {
+.github__link::after {
+  content: "";
+  background: url('../../../images/arrow.png');
+  width: 8px;
+  height: 13px;
+  display: inline-block;
+  margin-left: 8px;
+}
+}

@@ -1,0 +1,10 @@
+.technology__item_webpack::after {
+  content: "";
+  background: url('../../../../images/webpack.png');
+  width: 100px;
+  height: 110px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}

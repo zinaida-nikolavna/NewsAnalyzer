@@ -1,0 +1,16 @@
+.swiper__slide {
+  background: linear-gradient(180deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 400px;
+  width: 95%;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .swiper__slide{
+  width: 45%;
+  }
+}

@@ -1,0 +1,10 @@
+.technology__item_html::after {
+  content: "";
+  background: url('../../../../images/html5.png');
+  width: 88px;
+  height: 97px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 23px;
+  text-align: center;
+}
