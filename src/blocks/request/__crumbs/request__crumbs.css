@@ -1,0 +1,19 @@
+.request__crumbs {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .request__crumbs {
+    display: flex;
+    list-style: none;
+    margin-bottom: 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .request__crumbs {
+    display: flex;
+    list-style: none;
+    margin-bottom: 80px;
+  }
+}

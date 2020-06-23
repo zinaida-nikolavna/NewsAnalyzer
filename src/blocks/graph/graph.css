@@ -1,0 +1,12 @@
+@import url('./__title/graph__title.css');
+@import url('./__date/graph__date.css');
+@import url('./__quantity/graph__quantity.css');
+@import url('./__chart/graph__chart.css');
+@import url('./__header/graph__header.css');
+@import url('./__measure/graph__measure.css');
+@import url('./__line/graph__line.css');
+@import url('./__measure-bottom/graph__measure-bottom.css');
+
+.graph {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+}

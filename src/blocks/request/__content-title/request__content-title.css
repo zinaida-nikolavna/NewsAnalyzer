@@ -1,0 +1,9 @@
+.request__content-title {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1440px) {
+  .request__content-title {
+    margin-bottom: 25px;
+  }
+}
