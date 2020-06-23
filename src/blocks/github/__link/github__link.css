@@ -5,6 +5,11 @@
   line-height: 24px;
   font-weight: 500;
   color: #1A1B22;
+  transition: opacity 0.2s ease;
+}
+
+.github__link:hover {
+  opacity: .8;
 }
 
 @media (min-width: 768px) {

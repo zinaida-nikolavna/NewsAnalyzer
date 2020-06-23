@@ -4,6 +4,7 @@
   line-height: 22px;
   color: #b6bcbf;
   order: 2;
+  cursor: default;
 }
 
 @media (min-width: 600px) {

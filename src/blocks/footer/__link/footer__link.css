@@ -3,6 +3,12 @@
   font-size: 18px;
   line-height: 48px;
   color: #1a1b22;
+  transition: opacity 0.2s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.footer__link:hover{
+  opacity: .8;
 }
 
 @media (min-width: 600px) {

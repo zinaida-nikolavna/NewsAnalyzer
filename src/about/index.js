@@ -14,8 +14,8 @@ var mySwiper = new Swiper('.swiper__container', {
     nextEl: '.swiper__button-next',
     prevEl: '.swiper__button-prev',
   },
+  slidesPerGroup: 2,
   loop: true,
-  grabCursor: true,
   slidesPerView: 'auto',
   centeredSlides: true,
   breakpoints: {

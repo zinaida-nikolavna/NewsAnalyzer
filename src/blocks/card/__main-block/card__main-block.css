@@ -9,5 +9,6 @@
 @media (min-width: 1440px) {
 .card__main-block {
   height: 210px;
+  display: block;
 }
 }

@@ -8,3 +8,10 @@
   margin-bottom: 32px;
 }
 
+.github__button:focus{
+  outline: none;
+}
+
+.github__button:active:focus{
+  background-color: #fff;
+}

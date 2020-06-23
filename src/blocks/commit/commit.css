@@ -19,7 +19,7 @@
   width: auto;
   border-radius: 16px;
   box-sizing: border-box;
-
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

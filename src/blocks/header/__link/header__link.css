@@ -1,3 +1,6 @@
+@import url('./_hover-dark/header__link_hover-dark.css');
+@import url('./_hover-light/header__link_hover-light.css');
+
 .header__link {
   text-decoration: none;
   font-weight: 500;
@@ -5,8 +8,9 @@
   line-height: 24px;
   color: #B6BCBF;
   padding-bottom: 16px;
+  transition: color 0.2s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 
 @media (min-width: 600px) {
   .header__link {
