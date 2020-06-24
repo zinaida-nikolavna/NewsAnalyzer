@@ -10,7 +10,7 @@
   font-family: "Roboto regular", Arial, Helvetica, sans-serif;
   text-align: left;
   padding: 16px;
-  background-color: #fff;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

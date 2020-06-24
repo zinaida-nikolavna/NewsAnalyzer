@@ -1,6 +1,7 @@
 .swiper__button-prev {
   display: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .swiper__button-prev:focus {

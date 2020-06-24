@@ -14,18 +14,13 @@
   margin-left: 16px;
 }
 
-.swiper-slide-prev,
-.swiper-slide-active,
-.swiper-slide-next {
-  opacity: 1;
-}
-
 @media (min-width: 1440px) {
   .swiper {
     margin-left: 0;
   }
+  .swiper-slide-prev::after,
+  .swiper-slide-active::after,
+  .swiper-slide-next::after {
+  background: none;
 }
-
-
-
-
+}
