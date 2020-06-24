@@ -1,9 +1,7 @@
 @import url('./__container/github__container.css');
 @import url('./__content-title/github__content-title.css');
 @import url('./__link/github__link.css');
-@import url('./__button/github__button.css');
-@import url('./__link/_hide/github__link_hide.css');
-@import url('./__link/_show/github__link_show.css');
+@import url('./__link-btn/github__link-btn.css');
 
 
 .github {
@@ -11,4 +9,11 @@
   background-color: #F5F6F7;;
   width: 100%;
   text-align: center;
+  padding-bottom: 32px;
+}
+
+@media (min-width: 768px){
+  .github{
+  padding-bottom: 0;
+  }
 }

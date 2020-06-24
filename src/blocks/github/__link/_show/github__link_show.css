@@ -1,9 +1,0 @@
-.github__link_show {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .github__link_show{
-    display: block;
-  }
-}
