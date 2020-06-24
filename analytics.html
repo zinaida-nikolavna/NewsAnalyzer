@@ -7,12 +7,102 @@
   <meta name="description"
     content="сервис, помогающий по ключевым словам найти нужную новость и определить её популярность">
   <meta name="author" content="Бурова Зинаида">
-  <link rel="stylesheet" href="analytics.0e4338761429b4eb16ac.css">
+  <link rel="stylesheet" href="analytics.4c07b47a31c54ba30720.css">
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
   <title>NewsAnalyzer</title>
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__container">
+      <h3 class="header__logo header__logo_dark-theme">NewsAnalyzer</h3>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li class="header__list"><a class="header__link header__link_hover-dark" href="./index.html">Главная</a></li>
+          <li class="header__list"><a class="header__link header__link_hover-dark" href="./about.html">О проекте</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page">
+      <section class="request page__request">
+        <ul class="request__crumbs">
+          <li class="request__crumb"><a href="./index.html" class="request__link">Главная</a></li>
+          <li class="request__crumb"><span class="request__current">Аналитика<span></li>
+        </ul>
+        <h2 class="content-title request__content-title">Вы спросили: «Путешествия»</h2>
+        <p class="request__text">Новостей за неделю:
+          <span class="request__quantity">34 324</span>
+        </p>
+        <p class="request__text">Упоминаний в заголовках:
+          <span class="request__quantity">235</span>
+        </p>
+      </section>
+    </div>
+    <section class="analytic">
+      <div class="analytic__container">
+        <h2 class="analytic__title">Аналитика по дням</h2>
+        <div class="graph">
+          <div class="graph__header">
+            <p class="graph__title">Дата (август)</p>
+            <p class="graph__title">Кол-во упоминаний</p>
+            <div class="graph__line"></div>
+            <div class="graph__measure">
+              <span>0</span>
+              <span>25</span>
+              <span>50</span>
+              <span>75</span>
+              <span>100</span>
+            </div>
+          </div>
+          <div class="graph__chart">
+            <p class="graph__date">19, пн</p>
+            <div class="graph__quantity">15</div>
+            <p class="graph__date">20, вт</p>
+            <div class="graph__quantity">18</div>
+            <p class="graph__date">21, ср</p>
+            <div class="graph__quantity">11</div>
+            <p class="graph__date">22, чт</p>
+            <div class="graph__quantity">39</div>
+            <p class="graph__date">23, пт</p>
+            <div class="graph__quantity">45</div>
+            <p class="graph__date">24, сб</p>
+            <div class="graph__quantity">73</div>
+            <p class="graph__date">25, вс</p>
+            <div class="graph__quantity">34</div>
+          </div>
+          <div class="graph__measure-bottom">
+            <span>0</span>
+            <span>25</span>
+            <span>50</span>
+            <span>75</span>
+            <span>100</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">© 2019 Supersite</p>
+    <nav class="footer__nav">
+      <ul class="footer__links">
+        <li class="footer__list"><a class="footer__link" href="./index.html">Главная</a></li>
+        <li class="footer__list"><a class="footer__link" href="./about.html">О проекте</a></li>
+        <li class="footer__list"><a class="footer__link" href="https://praktikum.yandex.ru/">Яндекс Практикум</a></li>
+      </ul>
+    </nav>
+    <div class="footer__socmedia-links">
+      <a class="footer__socmedia-link" target="blank" href="https://github.com/zinaida-nikolavna"><img
+          src="images/github.png" alt=""></a>
+      <a class="footer__socmedia-link" target="blank" href="https://www.facebook.com/"><img
+          src="images/facebook.png" alt=""></a>
+    </div>
+  </footer>
+
   <script src='js/analytics.43306993bc291128a2a6.js'></script>
 </body>
 
