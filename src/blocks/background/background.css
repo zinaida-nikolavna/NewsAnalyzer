@@ -4,3 +4,9 @@
   background-image: url('../../images/screen.png');
   background-size: cover;
 }
+
+@media (max-width: 450px) {
+  .background {
+    background-image: url('../../images/screen_mobile.png');
+  }
+}

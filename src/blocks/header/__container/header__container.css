@@ -1,22 +1,22 @@
 .header__container {
-  min-width: 320px;
   max-width: 1232px;
+  min-height: 56px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
   box-sizing: border-box;
   margin: 0 auto;
 }
 
 @media (min-width: 600px) {
   .header__container {
-      padding: 22px 40px;
+      height: 64px;
   }
 }
 
 @media (min-width: 1440px) {
 .header__container {
-    padding: 28px 0px;
+    height: 80px;
 }
 }
