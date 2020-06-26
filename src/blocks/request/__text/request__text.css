@@ -1,0 +1,10 @@
+.request__text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  margin-bottom: 4px;
+}
+
+.request__text:last-child {
+  margin-bottom: 0;
+}

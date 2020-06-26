@@ -1,0 +1,15 @@
+.page__request {
+  margin: 20px auto;
+}
+
+@media (min-width: 600px) {
+  .page__request {
+   margin: 40px auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .page__request {
+   margin-bottom: 80px;
+  }
+}

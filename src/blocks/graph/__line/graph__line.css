@@ -1,0 +1,5 @@
+.graph__line {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-top: 1px solid #1A1B22;
+}

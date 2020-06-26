@@ -1,0 +1,19 @@
+.swiper__pagination {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .swiper__pagination{
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .swiper__pagination{
+    margin-top: 48px;
+    margin-bottom: 80px;
+  }
+}

@@ -1,0 +1,18 @@
+.analytic__container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1232px;
+  padding-bottom: 32px;
+  padding-top: 24px;
+}
+@media (min-width: 768px) {
+  .analytic__container{
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .analytic__container{
+    padding: 80px 0;
+  }
+}

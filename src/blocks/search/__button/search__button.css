@@ -1,0 +1,40 @@
+.search__button {
+  width: 288px;
+  min-height: 56px;
+  border-radius: 100px;
+  border: none;
+  background: #2f71e5;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.search__button:hover{
+  background-color: #347EFF;;
+}
+
+.search__button:focus{
+  outline: none;
+}
+
+.search__button:active:focus{
+  background-color: #2A65CC;
+}
+
+@media (min-width: 600px) {
+  .search__button {
+    width: 160px;
+    position: relative;
+    left: 280px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .search__button {
+    left: 440px;
+  }
+}
+

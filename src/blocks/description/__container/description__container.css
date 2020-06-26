@@ -1,0 +1,23 @@
+.description__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 16px;
+}
+
+
+@media (min-width: 600px) {
+  .description__container {
+      width: 450px;
+      margin: 0 auto;
+      padding: 0px 40px;
+  }
+  }
+
+@media (min-width: 1440px) {
+  .description__container {
+      width: 545px;
+      margin: 0 auto;
+      padding: 0;
+  }
+  }

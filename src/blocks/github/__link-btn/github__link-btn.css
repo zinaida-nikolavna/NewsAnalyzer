@@ -1,0 +1,29 @@
+.github__link-btn {
+  display: block;
+  text-decoration: none;
+  max-width: 288px;
+  border: 1px solid #1A1B22;
+  box-sizing: border-box;
+  border-radius: 80px;
+  padding: 15px 69px;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  margin: 0 auto;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.github__link-btn:focus{
+  outline: none;
+}
+
+.github__link-btn:active:focus{
+  background-color: #fff;
+}
+
+@media (min-width: 768px){
+  .github__link-btn{
+  display: none;
+  }
+}

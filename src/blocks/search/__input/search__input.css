@@ -1,0 +1,35 @@
+.search__input {
+  min-width: 288px;
+  max-width: 600px;
+  min-height: 56px;
+  border-radius: 100px;
+  border: 1px solid #d1d2d6;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  padding-left: 16px;
+}
+
+.search__input::placeholder {
+  font-size: 16px;
+  line-height: 22px;
+  color: #b6bcbf;
+}
+
+.search__input:focus{
+  outline: none;
+}
+
+@media (min-width: 600px) {
+  .search__input {
+    position: absolute;
+    width: 440px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .search__input {
+    width: 608px;
+  }
+}
+

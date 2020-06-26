@@ -1,0 +1,11 @@
+.technology__stack {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+@media (min-width: 1000px) {
+  .technology__stack {
+    width: 60%;
+  }
+}

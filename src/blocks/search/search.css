@@ -1,0 +1,21 @@
+@import url('./__input/search__input.css');
+@import url('./__button/search__button.css');
+
+.search {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+}
+
+
+@media (min-width: 600px) {
+  .search {
+    width: 452px;
+    display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  .search {
+    width: 550px;
+    display: flex;
+  }
+}

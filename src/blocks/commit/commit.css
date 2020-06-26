@@ -1,0 +1,29 @@
+@import url('./__about-author/commit__about-author.css');
+@import url('./__author/commit__author.css');
+@import url('./__data/commit__data.css');
+@import url('./__email/commit__email.css');
+@import url('./__photo/commit__photo.css');
+@import url('./__text/commit__text.css');
+@import url('./__contacts/commit__contacts.css');
+
+.commit {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 264px;
+  max-height: 288px;
+  width: auto;
+  border-radius: 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .commit{
+    padding: 24px;
+  }
+}

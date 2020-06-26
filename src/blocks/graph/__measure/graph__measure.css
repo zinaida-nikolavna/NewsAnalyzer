@@ -1,0 +1,15 @@
+.graph__measure {
+  display: none;
+  font-size: 12px;
+  line-height: 16px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: #B6BCBF;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .graph__measure {
+  display: flex;
+  }
+}

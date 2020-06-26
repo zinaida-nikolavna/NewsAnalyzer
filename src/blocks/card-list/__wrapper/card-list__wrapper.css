@@ -1,0 +1,20 @@
+.card-list__wrapper {
+  max-width: 1232px;
+  width: 90%;
+  padding-top: 32px;
+  padding-bottom: 44px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .card-list__wrapper {
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  .card-list__wrapper {
+      padding: 80px 0;
+  }
+}

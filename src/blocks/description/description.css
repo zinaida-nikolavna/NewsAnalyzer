@@ -1,0 +1,9 @@
+@import url('./__title/description__title.css');
+@import url('./__text/description__text.css');
+@import url('./__container/description__container.css');
+@import url('./__search/description__search.css');
+
+.description {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}

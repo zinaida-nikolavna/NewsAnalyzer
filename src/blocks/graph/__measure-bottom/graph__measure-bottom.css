@@ -1,0 +1,22 @@
+.graph__measure-bottom {
+  display: none;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B6BCBF;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .graph__measure-bottom{
+    display: flex;
+    margin-left: 18%;
+  }
+
+}
+
+@media (min-width: 1440px) {
+.graph__measure-bottom{
+  margin-left: 9.5%;
+}
+}

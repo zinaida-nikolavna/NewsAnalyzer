@@ -1,0 +1,11 @@
+.card__description {
+  padding: 20px 16px;
+}
+
+@media (min-width: 1440px) {
+  .card__description {
+    padding: 24px;
+  }
+  }
+
+

@@ -1,0 +1,7 @@
+@media (min-width: 600px) {
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}

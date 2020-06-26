@@ -1,0 +1,19 @@
+.graph__chart {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: repeat(7, 24px);
+  grid-gap: 24px;
+}
+
+@media (min-width: 768px){
+  .graph__chart {
+  grid-template-columns: 10% 1fr;
+  grid-gap:56px;
+}
+}
+
+@media (min-width: 1440px) {
+  .graph__chart {
+    grid-template-columns: 5% 1fr;
+  }
+  }

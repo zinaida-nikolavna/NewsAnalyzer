@@ -1,0 +1,29 @@
+.github__link {
+  font-family: "Roboto medium";
+  text-decoration: none;
+  display: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1A1B22;
+  transition: opacity 0.2s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.github__link:hover {
+  opacity: .8;
+}
+
+@media (min-width: 768px) {
+.github__link{
+  display: block;
+  }
+.github__link::after {
+  content: "";
+  background: url('../../../images/arrow.png');
+  width: 8px;
+  height: 13px;
+  display: inline-block;
+  margin-left: 8px;
+}
+}

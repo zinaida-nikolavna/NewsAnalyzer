@@ -1,0 +1,13 @@
+@import url('./__clients/page__clients.css');
+@import url('./__request/page__request.css');
+
+.page{
+  width: 90%;
+  margin: 0px auto;
+}
+
+@media (min-width: 1440px) {
+  .page {
+      max-width: 1232px;
+  }
+}

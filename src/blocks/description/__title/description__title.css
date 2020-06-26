@@ -1,0 +1,27 @@
+.description__title {
+  font-family:"Roboto Slab", Arial,Helvetica,sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  max-width: 385px;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .description__title {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .description__title {
+    font-size: 60px;
+    line-height: 64px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+  }
+  }

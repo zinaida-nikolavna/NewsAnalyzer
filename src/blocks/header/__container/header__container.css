@@ -1,0 +1,22 @@
+.header__container {
+  max-width: 1232px;
+  min-height: 56px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .header__container {
+      height: 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+.header__container {
+    height: 80px;
+}
+}

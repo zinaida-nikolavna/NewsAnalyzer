@@ -1,0 +1,19 @@
+@import url('./__data/card__data.css');
+@import url('./__description/card__description.css');
+@import url('./__image/card__image.css');
+@import url('./__source/card__source.css');
+@import url('./__title/card__title.css');
+@import url('./__text/card__text.css');
+@import url('./__main-block/card__main-block.css');
+
+.card {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+  min-height: 430px;
+  max-height: 576px;
+  max-width: 400px;
+  border-radius: 16px;
+  background: #fff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+

@@ -1,0 +1,25 @@
+@import url('./__image/author__image.css');
+@import url('./__container/author__container.css');
+@import url('./__content-title/author__content-title.css');
+@import url('./__content-text/author__content-text.css');
+
+.author {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+  min-height: 354px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .author {
+    display: grid;
+    grid-template-columns: 38% 57%;
+    grid-gap: 32px;
+    align-items: center;
+  }
+  }
+
+@media (min-width: 900px) {
+  .author {
+    grid-gap: 56px;
+  }
+}

@@ -1,0 +1,10 @@
+@import url('./__wrapper/technology__wrapper.css');
+@import url('./__content-title/technology__content-title.css');
+@import url('./__stack/technology__stack.css');
+@import url('./__item/technology__item.css');
+
+.technology {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+  background-color: #F5F6F7;;
+  width: 100%;
+}

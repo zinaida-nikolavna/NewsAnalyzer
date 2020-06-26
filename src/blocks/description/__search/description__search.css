@@ -1,0 +1,20 @@
+.description__search {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 600px) {
+  .description__search {
+    margin-top: 24px;
+    margin-bottom: 48px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .description__search {
+    margin-top: 64px;
+    margin-bottom: 80px;
+  }
+}

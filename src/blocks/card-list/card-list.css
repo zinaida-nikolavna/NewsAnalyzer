@@ -1,0 +1,12 @@
+@import url('./__container/card-list__container.css');
+@import url('./__content-title/card-list__content-title.css');
+@import url('./__link/card-list__link.css');
+@import url('./__wrapper/card-list__wrapper.css');
+@import url('./__header/card-list__header.css');
+@import url('./__button/card-list__button.css');
+
+.card-list {
+  font-family: "Roboto regular", Arial, Helvetica, sans-serif;
+  background-color: #F5F6F7;;
+  width: 100%;
+}
