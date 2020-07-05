@@ -16,14 +16,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].[chunkhash].js'
   },
+  devtool: 'source-map',
   module: {
     rules: [{
       test: /\.js$/,
       use: { loader: "babel-loader" },
       exclude: /node_modules/,
-      use: {
-        loader: "babel-loader"
-      }
     },
     {
       test: /\.css$/,

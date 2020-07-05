@@ -10,7 +10,7 @@
   padding-left: 6px;
 }
 
-.graph__quantity:first-of-type {
+/*.graph__quantity:first-of-type {
   width: 20%;
 }
 
@@ -58,4 +58,4 @@
 .graph__quantity:nth-of-type(7) {
   width: 34%;
 }
-}
+}*/

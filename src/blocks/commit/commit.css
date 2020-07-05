@@ -1,6 +1,6 @@
 @import url('./__about-author/commit__about-author.css');
 @import url('./__author/commit__author.css');
-@import url('./__data/commit__data.css');
+@import url('./__date/commit__date.css');
 @import url('./__email/commit__email.css');
 @import url('./__photo/commit__photo.css');
 @import url('./__text/commit__text.css');
@@ -16,7 +16,7 @@
   justify-content: flex-start;
   min-height: 264px;
   max-height: 288px;
-  width: auto;
+  min-width: 288px;
   border-radius: 16px;
   box-sizing: border-box;
   text-decoration: none;
@@ -25,5 +25,12 @@
 @media (min-width: 768px) {
   .commit{
     padding: 24px;
+    width: 336px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .commit{
+    width: 400px;
   }
 }

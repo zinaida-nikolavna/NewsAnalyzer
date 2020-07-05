@@ -91,90 +91,21 @@
         <button class="swiper__button-next"></button>
         <div class="swiper__container">
           <div class="swiper__wrapper">
-            <div class="swiper__slide">
-              <a href="https://github.com/zinaida-nikolavna" target="blank" class="commit">
-                <p class="commit__data">14 августа, 2019</p>
-                <div class="commit__about-author">
-                  <img src="<%=require('../images/avatar_commit.png')%>" alt="" class="commit__photo">
-                  <div class="commit__contacts">
-                    <p class="commit__author">Антон Дмитриев</p>
-                    <p class="commit__email">anton@yandex.ru</p>
+            <template id="commit-card-template">
+              <div class="swiper__slide">
+                <a href="https://github.com/zinaida-nikolavna" target="blank" class="commit">
+                  <p class="commit__date"></p>
+                  <div class="commit__about-author">
+                    <div class="commit__photo"></div>
+                    <div class="commit__contacts">
+                      <p class="commit__author"></p>
+                      <p class="commit__email"></p>
+                    </div>
                   </div>
-                </div>
-                <p class="commit__text">Emmet (formerly Zen Coding)
-                  is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-              </a>
-            </div>
-            <div class="swiper__slide">
-              <a href="https://github.com/zinaida-nikolavna" target="blank" class="commit">
-                <p class="commit__data">14 августа, 2019</p>
-                <div class="commit__about-author">
-                  <img src="<%=require('../images/avatar_commit.png')%>" alt="" class="commit__photo">
-                  <div class="commit__contacts">
-                    <p class="commit__author">Антон Дмитриев</p>
-                    <p class="commit__email">anton@yandex.ru</p>
-                  </div>
-                </div>
-                <p class="commit__text">Emmet (formerly Zen Coding)
-                  is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-              </a>
-            </div>
-            <div class="swiper__slide">
-              <a href="https://github.com/zinaida-nikolavna" target="blank" class="commit">
-                <p class="commit__data">14 августа, 2019</p>
-                <div class="commit__about-author">
-                  <img src="<%=require('../images/avatar_commit.png')%>" alt="" class="commit__photo">
-                  <div class="commit__contacts">
-                    <p class="commit__author">Антон Дмитриев</p>
-                    <p class="commit__email">anton@yandex.ru</p>
-                  </div>
-                </div>
-                <p class="commit__text">Emmet (formerly Zen Coding)
-                  is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-              </a>
-            </div>
-            <div class="swiper__slide">
-              <a href="https://github.com/zinaida-nikolavna" target="blank" class="commit">
-                <p class="commit__data">14 августа, 2019</p>
-                <div class="commit__about-author">
-                  <img src="<%=require('../images/avatar_commit.png')%>" alt="" class="commit__photo">
-                  <div class="commit__contacts">
-                    <p class="commit__author">Антон Дмитриев</p>
-                    <p class="commit__email">anton@yandex.ru</p>
-                  </div>
-                </div>
-                <p class="commit__text">Emmet (formerly Zen Coding)
-                  is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-              </a>
-            </div>
-            <div class="swiper__slide">
-              <a href="https://github.com/zinaida-nikolavna" target="blank" class="commit">
-                <p class="commit__data">14 августа, 2019</p>
-                <div class="commit__about-author">
-                  <img src="<%=require('../images/avatar_commit.png')%>" alt="" class="commit__photo">
-                  <div class="commit__contacts">
-                    <p class="commit__author">Антон Дмитриев</p>
-                    <p class="commit__email">anton@yandex.ru</p>
-                  </div>
-                </div>
-                <p class="commit__text">Emmet (formerly Zen Coding)
-                  is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-              </a>
-            </div>
-            <div class="swiper__slide">
-              <a href="https://github.com/zinaida-nikolavna" target="blank" class="commit">
-                <p class="commit__data">14 августа, 2019</p>
-                <div class="commit__about-author">
-                  <img src="<%=require('../images/avatar_commit.png')%>" alt="" class="commit__photo">
-                  <div class="commit__contacts">
-                    <p class="commit__author">Антон Дмитриев</p>
-                    <p class="commit__email">anton@yandex.ru</p>
-                  </div>
-                </div>
-                <p class="commit__text">Emmet (formerly Zen Coding)
-                  is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-              </a>
-            </div>
+                  <p class="commit__text"></p>
+                </a>
+              </div>
+            </template>
           </div>
           <div class="swiper__pagination"></div>
         </div>
