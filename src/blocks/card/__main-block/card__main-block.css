@@ -3,12 +3,14 @@
   text-overflow: ellipsis;
   display: -webkit-box;
 	-webkit-line-clamp: 4;
-	-webkit-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  vertical-align: top;
   }
 
 @media (min-width: 1440px) {
 .card__main-block {
   height: 210px;
+  padding-bottom: 5px;
   display: block;
 }
 }

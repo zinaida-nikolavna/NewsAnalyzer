@@ -2,4 +2,11 @@
   font-size: 16px;
   line-height: 22px;
   color: #1a1b22;
+  vertical-align: top;
+  height: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
 }
