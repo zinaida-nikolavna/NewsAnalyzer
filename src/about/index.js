@@ -3,8 +3,6 @@ import GithubApi from '../js/modules/GithubApi.js';
 import CommitCard from '../js/components/CommitCard.js';
 import CommitCardList from '../js/components/CommitCardList.js';
 import { commitsCardList } from '../js/constants/constants.js';
-/*import Swiper from 'swiper';
-import '../../node_modules/swiper/css/swiper.min.css';*/
 import { initSlider } from '../js/components/Slider.js';
 
 

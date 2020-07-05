@@ -6,8 +6,5 @@ export default class NewsCard {
   add(card) {
     this.card = card;
     this.container.append(this.card);
-    /*const arr = [];
-    arr.push(this.card);
-    return arr;*/
   }
 }
