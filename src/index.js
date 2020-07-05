@@ -4,15 +4,18 @@ import NewsApi from './js/modules/NewsApi.js';
 import NewsCard from './js/components/NewsCard.js';
 import NewsCardList from './js/components/NewsCardList.js';
 import SearchInput from './js/components/SearchInput.js';
+import Loader from './js/components/Loader.js';
 import DataStorage from './js/modules/DataStorage.js';
-import { API_KEY, todayDate, fromDate, newsCardList, form, notFound, newsList, button } from './js/constants/constants.js';
+import { API_KEY, todayDate, fromDate, newsCardList, form, notFound, newsList, button, loadGo } from './js/constants/constants.js';
 
 const api = new NewsApi(fromDate, todayDate, API_KEY);
 const cardList = new NewsCardList(newsCardList);
 const cardNews = new NewsCard;
 const dataStorage = new DataStorage;
+const load = new Loader(button, loadGo);
 
 const getDataNews = function dataNews(request) {
+  load.render(true);
   dataStorage.title(request);
   if (newsCardList.childElementCount > 1) {
     while (newsCardList.childNodes[2]) {
@@ -50,6 +53,7 @@ const getDataNews = function dataNews(request) {
           button.remove();
         }
       })
+      load.render(false);
     })
     .catch(error => {
       console.log(error)

@@ -34,7 +34,9 @@
         <p class="description__text">Введите в&nbsp;поиске любую тему и&nbsp;узнайте, насколько популярной она была
           в&nbsp;новостях за&nbsp;прошедшую неделю.</p>
         <form novalidate name="search" class="search description__search">
-          <input class="search__input" name="request" type="text" placeholder="Введите тему новости">
+          <input class="search__input" name="request" type="text" placeholder="Введите тему новости" required
+            minlength="3" maxlength="100">
+          <!--<span class="search__error"></span>-->
           <button type="submit" class="search__button">Искать</button>
         </form>
       </div>
