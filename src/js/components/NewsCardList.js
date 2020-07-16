@@ -1,4 +1,4 @@
-export default class NewsCard {
+export default class NewsCardList {
   constructor(container) {
     this.container = container;
   }

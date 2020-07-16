@@ -49,7 +49,6 @@ export default class Statistics {
       const arrayDate = this.data.articles.filter((item) => {
         return document.getElementById(`graph__date-${i}`).textContent === new Date(item.publishedAt).toLocaleDateString("ru-RU", options);
       });
-      console.log(arrayDate);
       const copyarrayDate = arrayDate;
       arrayDate.filter((item) => {
         item.title.toLowerCase().includes(this.request.toLowerCase());

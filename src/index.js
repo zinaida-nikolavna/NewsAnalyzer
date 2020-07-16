@@ -14,6 +14,50 @@ const cardNews = new NewsCard;
 const dataStorage = new DataStorage;
 const load = new Loader(button, loadGo);
 
+function storageNews() {
+  if (localStorage.getItem('data')) {
+    const cards = dataStorage.getData();
+    const request = dataStorage.getRequest();
+    form.request.value = request;
+    cards.articles.forEach((item) => {
+      cardList.add(cardNews.create(item));
+    })
+    showHideArticles(cards.articles.length);
+    clickButton();
+  }
+}
+
+function clickButton() {
+  let step = 3;
+  let card = 0;
+  const arrayCards = Array.from(document.querySelectorAll('.card-list__container .card'));
+  arrayCards.slice(step).forEach(e => e.style.display = 'none');
+  card += step;
+  button.addEventListener('click', (e) => {
+    const tmp = arrayCards.slice(card, card + step);
+    tmp.forEach(e => e.style.display = 'block');
+    card += step;
+    if (tmp.length < 3) {
+      button.remove();
+    }
+  })
+}
+
+function showHideArticles(data) {
+  if (data === 0) {
+    notFound.setAttribute('style', 'display: block');
+    newsList.setAttribute('style', 'display: none');
+  } else {
+    notFound.setAttribute('style', 'display: none');
+    newsList.setAttribute('style', 'display: block');
+  }
+  if (data > 3) {
+    button.setAttribute('style', 'display: inline-block');
+  } else {
+    button.setAttribute('style', 'display: none');
+  }
+}
+
 const getDataNews = function dataNews(request) {
   load.render(true);
   dataStorage.title(request);
@@ -24,35 +68,12 @@ const getDataNews = function dataNews(request) {
   }
   api.getNews(request)
     .then((data) => {
-      dataStorage.storage(data)
-      if (data.articles.length === 0) {
-        notFound.setAttribute('style', 'display: block');
-        newsList.setAttribute('style', 'display: none');
-      } else {
-        notFound.setAttribute('style', 'display: none');
-        newsList.setAttribute('style', 'display: block');
-      }
-      if (data.articles.length > 3) {
-        button.setAttribute('style', 'display: inline-block');
-      } else {
-        button.setAttribute('style', 'display: none');
-      }
-      let step = 3;
-      let card = 0;
+      showHideArticles(data.articles.length);
       data.articles.forEach((item) => {
         cardList.add(cardNews.create(item));
       })
-      const arrayCards = Array.from(document.querySelectorAll('.card-list__container .card'));
-      arrayCards.slice(step).forEach(e => e.style.display = 'none');
-      card += step;
-      button.addEventListener('click', (e) => {
-        const tmp = arrayCards.slice(card, card + step);
-        tmp.forEach(e => e.style.display = 'block');
-        card += step;
-        if (tmp.length < 3) {
-          button.remove();
-        }
-      })
+      clickButton();
+      dataStorage.storage(data);
       load.render(false);
     })
     .catch(error => {
@@ -60,3 +81,4 @@ const getDataNews = function dataNews(request) {
     })
 }
 const searchRequest = new SearchInput(form, getDataNews);
+storageNews();
