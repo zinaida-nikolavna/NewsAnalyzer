@@ -28,7 +28,7 @@ function storageNews() {
 }
 
 function clickButton() {
-  let step = 3;
+  const step = 3;
   let card = 0;
   const arrayCards = Array.from(document.querySelectorAll('.card-list__container .card'));
   arrayCards.slice(step).forEach(e => e.style.display = 'none');
@@ -60,6 +60,7 @@ function showHideArticles(data) {
 
 const getDataNews = function dataNews(request) {
   load.render(true);
+  newsList.setAttribute('style', 'display: none');
   dataStorage.title(request);
   if (newsCardList.childElementCount > 1) {
     while (newsCardList.childNodes[2]) {
