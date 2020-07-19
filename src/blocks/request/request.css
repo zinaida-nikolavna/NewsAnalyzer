@@ -5,6 +5,7 @@
 @import url('./__quantity/request__quantity.css');
 @import url('./__text/request__text.css');
 @import url('./__content-title/request__content-title.css');
+@import url('./__title/request__title.css');
 
 .request {
   font-family: "Roboto regular", Arial, Helvetica, sans-serif;

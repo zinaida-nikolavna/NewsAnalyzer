@@ -33,12 +33,13 @@
           <li class="request__crumb"><a href="./index.html" class="request__link">Главная</a></li>
           <li class="request__crumb"><span class="request__current">Аналитика</span></li>
         </ul>
-        <h2 class="content-title request__content-title">Вы спросили: «Путешествия»</h2>
+        <h2 class="content-title request__content-title">Вы спросили: <span class="request__title"></span>
+        </h2>
         <p class="request__text">Новостей за неделю:
-          <span class="request__quantity">34 324</span>
+          <span class="request__quantity"></span>
         </p>
         <p class="request__text">Упоминаний в заголовках:
-          <span class="request__quantity">235</span>
+          <span class="request__quantity" id="request__title-mention"></span>
         </p>
       </section>
     </div>
@@ -47,7 +48,7 @@
         <h2 class="analytic__title">Аналитика по дням</h2>
         <div class="graph">
           <div class="graph__header">
-            <p class="graph__title">Дата (август)</p>
+            <p class="graph__title">Дата <span id="graph__month"></span></p>
             <p class="graph__title">Кол-во упоминаний</p>
             <div class="graph__line"></div>
             <div class="graph__measure">
@@ -59,20 +60,20 @@
             </div>
           </div>
           <div class="graph__chart">
-            <p class="graph__date">19, пн</p>
-            <div class="graph__quantity">15</div>
-            <p class="graph__date">20, вт</p>
-            <div class="graph__quantity">18</div>
-            <p class="graph__date">21, ср</p>
-            <div class="graph__quantity">11</div>
-            <p class="graph__date">22, чт</p>
-            <div class="graph__quantity">39</div>
-            <p class="graph__date">23, пт</p>
-            <div class="graph__quantity">45</div>
-            <p class="graph__date">24, сб</p>
-            <div class="graph__quantity">73</div>
-            <p class="graph__date">25, вс</p>
-            <div class="graph__quantity">34</div>
+            <p class="graph__date" id="graph__date-1"></p>
+            <div class="graph__quantity" id="graph__quantity-1"></div>
+            <p class="graph__date" id="graph__date-2"></p>
+            <div class="graph__quantity" id="graph__quantity-2"></div>
+            <p class="graph__date" id="graph__date-3"></p>
+            <div class="graph__quantity" id="graph__quantity-3"></div>
+            <p class="graph__date" id="graph__date-4"></p>
+            <div class="graph__quantity" id="graph__quantity-4"></div>
+            <p class="graph__date" id="graph__date-5"></p>
+            <div class="graph__quantity" id="graph__quantity-5"></div>
+            <p class="graph__date" id="graph__date-6"></p>
+            <div class="graph__quantity" id="graph__quantity-6"></div>
+            <p class="graph__date" id="graph__date-7"></p>
+            <div class="graph__quantity" id="graph__quantity-7"></div>
           </div>
           <div class="graph__measure-bottom">
             <span>0</span>

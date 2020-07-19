@@ -1,36 +1,23 @@
-import Swiper from 'swiper';
-import '../../node_modules/swiper/css/swiper.min.css';
 import "../css/about.css";
+import GithubApi from '../js/modules/GithubApi.js';
+import CommitCard from '../js/components/CommitCard.js';
+import CommitCardList from '../js/components/CommitCardList.js';
+import { commitsCardList } from '../js/constants/constants.js';
+import { initSlider } from '../js/components/Slider.js';
 
-var mySwiper = new Swiper('.swiper__container', {
-  slideClass: 'swiper__slide',
-  wrapperClass: 'swiper__wrapper',
-  pagination: {
-    el: '.swiper__pagination',
-    bulletClass: 'swipper__pagination-bullet',
-    bulletActiveClass: 'swipper__pagination-bullet_active',
-  },
-  navigation: {
-    nextEl: '.swiper__button-next',
-    prevEl: '.swiper__button-prev',
-  },
-  slidesPerGroup: 2,
-  loop: true,
-  slidesPerView: 'auto',
-  centeredSlides: true,
-  breakpoints: {
-    320: {
-      centeredSlides: false,
-      spaceBetween: 8,
-    },
-    768: {
-      centeredSlides: false,
-      spaceBetween: 8,
-    },
-    1440: {
-      centeredSlides: true,
-      spaceBetween: 16,
-    }
-  }
-})
+
+const gitApi = new GithubApi('https://api.github.com/repos/zinaida-nikolavna/NewsAnalyzer/commits');
+const commitList = new CommitCardList(commitsCardList);
+
+gitApi.getCommits()
+  .then((data) => {
+    data.forEach((item) => {
+      commitList.add(new CommitCard(item).create());
+    })
+    initSlider();
+  })
+  .catch(error => {
+    console.log(error)
+  })
+
 

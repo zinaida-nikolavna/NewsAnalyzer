@@ -15,6 +15,10 @@
   color: #b6bcbf;
 }
 
+.search__input_red::placeholder {
+  color: red;
+}
+
 .search__input:focus{
   outline: none;
 }

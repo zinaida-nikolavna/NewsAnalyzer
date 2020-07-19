@@ -1,4 +1,5 @@
 .card-list__button {
+  display: none;
   width: 288px;
   height: 56px;
   font-weight: 500;
