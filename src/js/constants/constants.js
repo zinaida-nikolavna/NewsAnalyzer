@@ -1,4 +1,4 @@
-export { API_KEY, todayDate, fromDate, newsCardList, form, notFound, commitsCardList, options, newsList, button, loadGo };
+export { API_KEY, todayDate, fromDate, newsCardList, form, notFound, commitsCardList, options, newsList, button, loadGo, searchbtn, searchInput };
 
 const todayDate = `${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}`;
 const sevenDay = new Date(new Date().setDate(new Date().getDate() - 7));
@@ -12,4 +12,6 @@ const loadGo = document.querySelector('.loader');
 const button = document.querySelector('.card-list__button');
 const commitsCardList = document.querySelector('.swiper__wrapper');
 const options = { year: 'numeric', month: 'long', day: 'numeric' };
+const searchbtn = document.querySelector('.search__button');
+const searchInput = document.querySelector('.search__input');
 

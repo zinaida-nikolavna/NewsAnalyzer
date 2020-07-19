@@ -6,7 +6,7 @@ import NewsCardList from './js/components/NewsCardList.js';
 import SearchInput from './js/components/SearchInput.js';
 import Loader from './js/components/Loader.js';
 import DataStorage from './js/modules/DataStorage.js';
-import { API_KEY, todayDate, fromDate, newsCardList, form, notFound, newsList, button, loadGo } from './js/constants/constants.js';
+import { API_KEY, todayDate, fromDate, newsCardList, form, notFound, newsList, button, loadGo, searchbtn, searchInput } from './js/constants/constants.js';
 
 const api = new NewsApi(fromDate, todayDate, API_KEY);
 const cardList = new NewsCardList(newsCardList);
@@ -60,6 +60,9 @@ function showHideArticles(data) {
 
 const getDataNews = function dataNews(request) {
   load.render(true);
+  searchbtn.setAttribute('disabled', 'true');
+  searchbtn.classList.add('search__button_disabled');
+  searchInput.setAttribute('disabled', 'true');
   newsList.setAttribute('style', 'display: none');
   dataStorage.title(request);
   if (newsCardList.childElementCount > 1) {
@@ -76,6 +79,9 @@ const getDataNews = function dataNews(request) {
       clickButton();
       dataStorage.storage(data);
       load.render(false);
+      searchbtn.removeAttribute('disabled');
+      searchbtn.classList.remove('search__button_disabled');
+      searchInput.removeAttribute('disabled');
     })
     .catch(error => {
       console.log(error)

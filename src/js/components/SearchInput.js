@@ -12,6 +12,7 @@ export default class SearchInput {
   submit(event) {
     event.preventDefault();
     const input = this.form.elements[0];
+    const button = this.form.elements[1];
     const isValidInput = this.checkInputValidity(input);
     if (isValidInput) {
       this.func(this.form.request.value);
