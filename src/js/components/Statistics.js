@@ -59,7 +59,7 @@ export default class Statistics {
         }
       })
       const mentions = arrayDate.length + copyarrayDate.length;
-      if (window.matchMedia('(max-width: 1000px)').matches) {
+      /*if (window.matchMedia('(max-width: 1000px)').matches) {
         document.getElementById(`graph__quantity-${i}`).textContent = mentions;
         document.getElementById(`graph__quantity-${i}`).setAttribute('style', `width: ${mentions * 2}%`);
         if (mentions * 2 > 100) {
@@ -68,7 +68,9 @@ export default class Statistics {
       } else {
         document.getElementById(`graph__quantity-${i}`).textContent = mentions;
         document.getElementById(`graph__quantity-${i}`).setAttribute('style', `width: ${mentions}%`);
-      }
+      }*/
+      document.getElementById(`graph__quantity-${i}`).textContent = mentions;
+      document.getElementById(`graph__quantity-${i}`).setAttribute('style', `width: ${mentions}%`);
     }
   }
   setMonth() {
